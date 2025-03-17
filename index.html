@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="FreshMart - Your one-stop shop for fresh groceries. We offer fresh apples, whole wheat bread, organic milk, and more.">
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  <title>FreshMart - Grocery Shop</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+  <header>
+    <div class="logo">
+      <h1>FreshMart</h1>
+    </div>
+    <nav aria-label="Main Navigation">
+      <ul role="menubar">
+        <li role="menuitem"><a href="#home">Home</a></li>
+        <li role="menuitem"><a href="#products">Products</a></li>
+        <li role="menuitem"><a href="#about">About Us</a></li>
+        <li role="menuitem"><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section id="home" class="hero">
+      <h2>Welcome to FreshMart</h2>
+      <p>Your one-stop shop for fresh groceries!</p>
+      <a href="#products" class="btn">Shop Now</a>
+    </section>
+
+    <section id="products" class="products">
+      <h2>Our Products</h2>
+      <div class="product-grid">
+        <div class="product-card">
+          <img src="images/apple.png" alt="Fresh red apples on a wooden table" loading="lazy">
+          <h3>Fresh Apples</h3>
+          <p>$2.99/kg</p>
+          <button>Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="images/bread.png" alt="A loaf of whole wheat bread on a cutting board" loading="lazy">
+          <h3>Whole Wheat Bread</h3>
+          <p>$1.99/loaf</p>
+          <button>Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="images/milk.png" alt="A bottle of organic milk with a green label" loading="lazy">
+          <h3>Organic Milk</h3>
+          <p>$3.49/liter</p>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <h2>About Us</h2>
+      <p>FreshMart is committed to providing the freshest and highest quality groceries to our customers. We source our products from local farms and trusted suppliers.</p>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact Us</h2>
+      <form lang="en">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" placeholder="Your Name" required>
+
+        <label for="email">Your Email</label>
+        <input type="email" id="email" placeholder="Your Email" required>
+
+        <label for="message">Your Message</label>
+        <textarea id="message" placeholder="Your Message" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <p>&copy; 2023 FreshMart. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
